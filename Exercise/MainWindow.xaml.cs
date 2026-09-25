@@ -37,5 +37,17 @@ namespace Exercise
             StackPanelWindow stackPanelWindow = new StackPanelWindow();
             stackPanelWindow.Show();
         }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            DockPanelWindow dockPanelWindow = new DockPanelWindow();
+            dockPanelWindow.Show();
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            UniformGridWindow uniformGridWindow = new UniformGridWindow();
+            uniformGridWindow.Show();
+        }
     }
 }
