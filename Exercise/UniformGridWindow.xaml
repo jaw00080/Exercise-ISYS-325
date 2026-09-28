@@ -6,7 +6,10 @@
         xmlns:local="clr-namespace:Exercise"
         mc:Ignorable="d"
         Title="UniformGridWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    <UniformGrid>
+        <Label Content="Name"/>
+        <TextBox Text="John Doe"/>
+        <Label Content="Age"/>
+        <TextBox Text="30"/>
+    </UniformGrid>
 </Window>
