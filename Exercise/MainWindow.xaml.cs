@@ -49,5 +49,11 @@ namespace Exercise
             UniformGridWindow uniformGridWindow = new UniformGridWindow();
             uniformGridWindow.Show();
         }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            GridWindow gridWindow = new GridWindow();
+            gridWindow.Show();
+        }
     }
 }
